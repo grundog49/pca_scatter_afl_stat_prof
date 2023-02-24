@@ -32,6 +32,7 @@ from pyclustertend import compute_ivat_ordered_dissimilarity_matrix, compute_ord
 # Define the app to be formated
 
 app = Dash(__name__)
+server = app.server
 
 # Define the colours to be used for the graphs
 
