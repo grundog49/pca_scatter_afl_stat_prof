@@ -43,7 +43,7 @@ colors = {
 
 # Import the data to be used for the graphic
 
-df = pd.read_excel(r'D:\Users\grund\OneDrive\Documents\Interchange Exchange\202201 - Evolution of positions in football\Data\AFL_player_data.xlsx')
+df = pd.read_excel(r'AFL_player_data.xlsx')
 
 # Manipulate the data to be used for the graphic
 
