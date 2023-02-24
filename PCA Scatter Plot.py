@@ -32,7 +32,6 @@ from pyclustertend import compute_ivat_ordered_dissimilarity_matrix, compute_ord
 # Define the app to be formated
 
 app = Dash(__name__)
-server = app.server
 
 # Define the colours to be used for the graphs
 
@@ -111,25 +110,6 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             figure = fig
         )],
     )
-'''
-@app.callback(
-    Output('graph-with-slider', 'figure'),
-    Input('year-slider', 'value'))
-
-def update_figure(selected_year):
-    filtered_df = df[df['year'] == selected_year]
-
-    fig = px.scatter_3d(filtered_df, x='PCA1', y='PCA2', z='PCA3',
-              color='Year', opacity=0.5)
-
-    fig.update_layout(
-        plot_bgcolor=colors['background'],
-        paper_bgcolor=colors['background'],
-        font_color=colors['text'],
-        transition_duration=500
-    )
-
-    return fig'''
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
