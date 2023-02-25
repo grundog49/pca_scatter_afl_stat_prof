@@ -18,6 +18,7 @@ from sklearn.decomposition import PCA
 # Define the app to be formated
 
 app = Dash(__name__)
+server = app.server
 
 # Define the colours to be used for the graphs
 
