@@ -29,7 +29,7 @@ colors = {
 
 # Import the data to be used for the graphic
 
-df = pd.read_csv('https://github.com/grundog49/pca_scatter_afl_stat_prof/blob/6e7649a298c37ac159d9217d65518f107cecce5c/AFL_player_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/grundog49/pca_scatter_afl_stat_prof/main/AFL_player_data.csv')
 
 # Manipulate the data to be used for the graphic
 
