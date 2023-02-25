@@ -7,21 +7,7 @@
 from dash import Dash, html, dcc, Input, Output
 import plotly.express as px
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
-import numpy as np
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-from scipy.cluster.hierarchy import dendrogram, linkage
-from sklearn.cluster import DBSCAN
-from sklearn.metrics import silhouette_samples, silhouette_score
-from scipy.spatial.distance import pdist, squareform
-import itertools
-from scipy.spatial.distance import pdist
-import seaborn as sns
-from scipy.optimize import Bounds, minimize
-from os import path
-import seaborn as sns
-from pyclustertend import compute_ivat_ordered_dissimilarity_matrix, compute_ordered_dissimilarity_matrix
 
 # Define any functions and constants
 
